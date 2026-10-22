@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">MyPortfolio<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <p class="eyebrow">✨ WELCOME TO MY CREATIVE SPACE</p>
+                <h1>Hello, I'm <span>Nida!</span></h1>
+                <h2>A Student & Future Creator</h2>
+                <p>
+                    I love learning new things, exploring technology,
+                    and turning creative ideas into real projects.
+                    This is where my journey begins!
+                </p>
+                <a href="#projects" class="btn">Explore My Work ↗</a>
+            </div>
+
+            <div class="hero-art">
+                <div class="circle">
+                    <span class="emoji">👩‍💻</span>
+                </div>
+                <span class="floating star">✦</span>
+                <span class="floating heart">♡</span>
+                <span class="floating sparkle">✧</span>
+                <div class="hello-tag">Dream big! 💜</div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <p class="eyebrow">A LITTLE ABOUT ME</p>
+            <h2>Curious mind, creative heart. 💜</h2>
+            <p class="section-description">
+                I'm a student who enjoys discovering new ideas, solving
+                problems, and learning how websites work. I'm still growing
+                my skills, and every project teaches me something new.
+            </p>
+
+            <div class="about-cards">
+                <div class="mini-card">
+                    <span>🎨</span>
+                    <h3>Creative</h3>
+                    <p>I enjoy expressing ideas in different ways.</p>
+                </div>
+                <div class="mini-card">
+                    <span>💡</span>
+                    <h3>Curious</h3>
+                    <p>I love exploring new concepts and skills.</p>
+                </div>
+                <div class="mini-card">
+                    <span>🚀</span>
+                    <h3>Growing</h3>
+                    <p>Every small step brings me closer to my goals.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <p class="eyebrow">WHAT I'M LEARNING</p>
+            <h2>My Skills & Superpowers ⚡</h2>
+            <p class="section-description">
+                Here are some of the skills I'm developing on my journey.
+            </p>
+
+            <div class="skills-container">
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>HTML</span><span>80%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-fill html"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>Problem solving and logic</span><span>70%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-fill Problem solving and logic"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>Data structures and algorithm basics</span><span>45%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-fill Data structure and algorithm basics"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>Creates structure and forms using HTML</HTML></span><span>85%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-fill Creates structure and forms using HTML"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="note">I also love to create websites and interesting using html. I also love to create new designs and animations.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <p class="eyebrow">THINGS I'VE CREATED</p>
+            <h2>My Little Projects 🪄</h2>
+            <p class="section-description">
+                Click any project card to discover more about it.
+            </p>
+
+            <div class="project-grid">
+                <button class="project-card project-one"
+                    onclick="showProject('Delicious bakery')">
+                    <span class="project-icon">🧁</span>
+                    <span class="project-category">HTML + CSS</span>
+                    <span class="project-title">Delicious bakery</span>
+                    <span class="project-description">
+                        A beautiful bakery website featuring delicious cakes,
+                        cupcakes, prices, and store locations.
+                    </span>
+                    <a href ="https://delicious-bakery99.pages.dev/">View details ↗</a>
+                </button>
+
+                <button class="project-card project-two"
+                    onclick="showProject('Coffee shop')">
+                    <span class="project-icon">☕</span>
+                    <span class="project-category">WEB DESIGN</span>
+                    <span class="project-title">Daily Grind Café</span>
+                    <span class="project-description">
+                       Daily Grind is a calm corner for good coffee. We grind our beans fresh every morning and 
+                       serve them in a space that feels warm and simple.
+                    </span>
+                    <a href="">View details ↗</a>
+                </button>
+
+                <button class="project-card project-two"
+                    onclick="showProject('Game')">
+                    <span class="project-icon"></span>
+                    <span class="project-category">WEB DESIGN</span>
+                    <span class="project-title">Daily Grind Café</span>
+                    <span class="project-description">
+                       Daily Grind is a calm corner for good coffee. We grind our beans fresh every morning and 
+                       serve them in a space that feels warm and simple.
+                    </span>
+                    <a href="https://hedmaze42.pages.dev/">View details ↗</a>
+                </button>
+
+            </div>
+
+            <!-- Project details appear here -->
+            <div id="project-details" class="project-details" hidden>
+                <button class="close-btn" onclick="closeProject()"
+                    aria-label="Close project details">✕</button>
+                <h3 id="detail-title"></h3>
+                <p id="detail-text"></p>
+                <p id="detail-tech" class="detail-tech"></p>
+            </div>
+        </section>
+
+        <!-- Fun Facts Section -->
+        <section class="fun-section">
+            <div class="fun-content">
+                <p class="eyebrow">BEYOND THE SCREEN</p>
+                <h2>Want to know a fun fact? 🎲</h2>
+                <p>
+                    There's more to me than code! Press the button
+                    to discover something fun.
+                </p>
+                <button class="btn fun-btn" onclick="showFact()">
+                    Reveal a Fun Fact ✨
+                </button>
+                <div id="fun-fact" class="fun-fact" aria-live="polite">
+                    Your surprise is waiting here!
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2>Have an idea? Let's talk! 💌</h2>
+            <p class="section-description">
+                I'm always excited to learn, collaborate, and explore
+                new opportunities.
+            </p>
+            <a class="btn" href="mailto:nidaa@example.com">
+                Send Me an Email ↗
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made with 💜 and a little bit of code.</p>
+        <p>© 2026 My Creative Portfolio</p>
+    </footer>
+
+    <!-- Small interactive features -->
+    <script>
+        const projects = {
+            bakery: {
+                title: "🧁 Delicious Bakery",
+                text: "Baked fresh daily. Delivered with love.",
+                tech: "Technologies: HTML, CSS, responsive layouts."
+            },
+            coffee: {
+                title: "☕ Daily Grind Café",
+                text: "A café website concept featuring a menu items, warm colors, and a modern layout for a local coffee shop.",
+                tech: "Technologies: HTML, CSS, web design."
+            },
+            game: {
+                title: "🏀 Hedgerow Maze game",
+                text: "A browser game concept where players can explore the maze and reach the finishing point.",
+                tech: "Technologies: HTML, CSS, JavaScript."
+            }
+        };
+
+        function showProject(projectName) {
+            const project = projects[projectName];
+            document.getElementById("detail-title").textContent =
+                project.title;
+            document.getElementById("detail-text").textContent =
+                project.text;
+            document.getElementById("detail-tech").textContent =
+                project.tech;
+
+            const details = document.getElementById("project-details");
+            details.hidden = false;
+            details.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        }
+
+        function closeProject() {
+            document.getElementById("project-details").hidden = true;
+        }
+
+        const facts = [
+            "I believe every expert started as a beginner. 🌱",
+            "I love discovering new ideas and learning new skills. 💡",
+            "Creativity can turn a simple idea into something amazing. 🎨",
+            "Every coding mistake is a chance to learn something new. 💻",
+            "My dream is to keep learning and build exciting projects. 🚀",
+            "A little progress every day adds up to big achievements. ⭐"
+        ];
+
+        let lastFact = -1;
+
+        function showFact() {
+            let nextFact;
+
+            do {
+                nextFact = Math.floor(Math.random() * facts.length);
+            } while (facts.length > 1 && nextFact === lastFact);
+
+            lastFact = nextFact;
+            document.getElementById("fun-fact").textContent =
+                facts[nextFact];
+        }
+    </script>
+
+</body>
+</html>
